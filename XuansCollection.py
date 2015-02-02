@@ -34,7 +34,7 @@ class XuansCollection(BasicNewsRecipe):
                  h3 { text-align: center; font-size: 125%; font-weight: bold; } \
                  h4, h5, h6 { text-align: center; font-size: 100%; font-weight: bold; }'
 
-    feeds= [(u'The Smart Set', u'http://thesmartset.com/rss/default.xml'), 
+    feeds= [(u'Quora Weekly Digest', u'http://www.quora.com/Quora-Weekly-Digest/rss'), (u'The Smart Set', u'http://thesmartset.com/rss/default.xml'), 
 (u'The New York Review of Books', u'http://feeds.feedburner.com/nybooks'), 
 (u'B&N review', u'http://bnreview.barnesandnoble.com/bnreview/plugins/custom/barnesandnoble/bnreview/rss_full'),
 (u'LA Review of Books', u'http://lareviewofbooks.org/feed/?ver=2'),
