@@ -34,8 +34,7 @@ class XuansCollection(BasicNewsRecipe):
                  h3 { text-align: center; font-size: 125%; font-weight: bold; } \
                  h4, h5, h6 { text-align: center; font-size: 100%; font-weight: bold; }'
 
-    feeds= [(u'',u''),
-            (u'Lucumr',u'http://www.devtacular.com/utilities/atomtorss/?url=http%3a%2f%2flucumr.pocoo.org%2ffeed.atom'),
+    feeds= [(u'Lucumr',u'http://www.devtacular.com/utilities/atomtorss/?url=http%3a%2f%2flucumr.pocoo.org%2ffeed.atom'),
             (u'Planet Python','http://planetpython.org/rss20.xml'),
             (u'Edwin Chen - Clear and Practical Examples of Data Analyses',u'http://blog.echen.me/feeds/all.rss.xml'),
             (u'John Langford - Machine Learning',u'http://hunch.net/?feed=rss2'),
